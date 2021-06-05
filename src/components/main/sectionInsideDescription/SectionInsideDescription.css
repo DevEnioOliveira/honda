@@ -1,0 +1,19 @@
+.inside-banner{
+    background: transparent url('../../../assets/imgs/Grupo\ 74.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 615px;
+}
+
+.inside-description-container {
+    width: 100%;
+    height: 807px;
+}
+
+
+@media( max-width: 1755px) {
+    .inside-banner {
+        height: 520px;
+    }
+}

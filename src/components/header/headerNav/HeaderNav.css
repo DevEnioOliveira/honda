@@ -1,0 +1,39 @@
+.flex-container-nav{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+
+.headerNav{
+    width: 100%;
+    height: 100px;
+    background: transparent url('../../../assets/imgs/logo.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.atendimento-header{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: -0.7px;
+    color: #727B7A;
+    opacity: 1;
+    
+}
+
+.numero-atendimento-header {
+    font-size: 25px;
+    font-style: italic;
+    color: #DF0209;
+    letter-spacing: 0;
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+    
+}
