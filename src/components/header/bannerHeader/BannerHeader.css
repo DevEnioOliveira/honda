@@ -6,3 +6,45 @@
     background-size: cover;
     opacity: 1;
 }
+
+.banner-header-mobile{
+    background: transparent url('../../../assets/imgs/Civic_EXL_2017_3_4_Lado_A_Preto_72dpi.png');
+    width: 375px;
+    height: 235px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+    opacity: 1;
+    display: none;
+}
+
+.banner-name-mobile{
+    display: none;
+    background: transparent url('../../../assets/imgs/Grupo\ 98.png');
+    background-repeat: no-repeat;
+    width: 318px;
+    height: 24px;
+    opacity: 1;
+}
+
+
+
+@media(max-width: 1440px){
+    .banner-header{
+        background-size: contain;
+        max-width: 1440px;
+    }
+}
+
+@media(max-width:500px) {
+    .banner-header{
+        display: none;
+    }
+
+    .banner-name-mobile{
+        display: block;
+        position: absolute;
+        left: 60px;
+    }
+}

@@ -6,9 +6,18 @@
     padding-top: 40px;
 }
 
+.nav-flex-container{
+    width: 100%;
+    height: 100px;
+    background: transparent url('../../../assets/imgs/logo.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 
 
 .headerNav{
+    display: none;
     width: 100%;
     height: 100px;
     background: transparent url('../../../assets/imgs/logo.png');
@@ -36,4 +45,89 @@
     bottom: 25px;
     text-align: center;
     
+}
+
+@media(max-width:1920px) {
+
+    .flex-header-item-2{
+        position: relative;
+        left: 1200px;
+    }
+    .nav-flex-container{
+        height: 51;
+        position: absolute;
+        top: 50px;
+        left: 170px;
+        padding-bottom: 50px;
+        width: 200px;
+        
+    }
+
+    .headerNav{
+        width: 100%;
+        height: 100px;
+        background: transparent url('../../../assets/imgs/logo.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+}
+
+@media(max-width:1680px) {
+    .atendimento-header{
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 200;
+        font-style: italic;
+        letter-spacing: -0.7px;
+        color: #727B7A;
+        opacity: 1;
+        
+    }
+
+    .flex-header-item-2{
+        position: relative;
+        left: 1100px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .flex-header-item-2{
+        position: relative;
+        left: 1000px;
+    }
+}
+@media(max-width:500px) {
+    .flex-header-item-2{
+        position: relative;
+        left: 0;
+    }
+    .flex-container-nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 240px;
+    }
+
+    .nav-flex-container{
+        height: 51;
+        position: absolute;
+        top: 50px;
+        left: 170px;
+        padding-bottom: 50px;
+        width: 200px;
+        
+    }
+
+    .headerNav{
+        width: 100%;
+        height: 100px;
+        background: transparent url('../../../assets/imgs/logo.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    .flex-header-item-2 {
+        position: relative;
+        top: 30px;
+    }
 }

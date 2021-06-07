@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Form.css'
 
-const Form = () => {
+const Form = (props) => {
     return (
         <div className="form-flex-container">
             <div className="icon-form">
@@ -16,7 +16,20 @@ const Form = () => {
                 <p className="form-description-2">CONTATO</p>
             </div>
             <div className="inputs-container">
-                <input type="text" placeholder="Nome"/>
+                <input type="text" placeholder="Nome" name="nome"/>
+                <input type="email" placeholder="Email" name="email"/>
+                <input type="text" placeholder="Telefone" name="telefone"/>
+                <select name="horario" id="horario" placeholder="Escolha o horário">
+                    <option value="choose" >Escolha o horário</option>
+                    <option value="choose">15:00</option>
+                    <option value="choose" >18:00</option>
+                </select>
+                <select name="local" id="local" placeholder="Escolha a unidade">
+                    <option value="local1" >Escolha a unidade</option>
+                    <option value="local2" >Rua exemplo 1 nº 32</option>
+                    <option value="local3" >Rua exemplo 2 nº 50</option>
+                </select>
+                <div className="button-form">AGENDAR TEST DRIVE</div>
             </div>
         </div>
     )

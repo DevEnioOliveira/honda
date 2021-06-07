@@ -122,3 +122,10 @@
 }
 
 
+@media(max-width: 1024px) {
+    .sectionCards-flex-container{
+        position: relative;
+        bottom: 100px;
+    }
+}
+

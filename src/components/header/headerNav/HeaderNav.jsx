@@ -4,7 +4,7 @@ import './HeaderNav.css'
 
 const HeaderNav = () => {
     return (
-        <div className="container headerNav flex-container-nav">
+        <div className="container  flex-container-nav">
             <div className="nav-flex-container"></div>           
             <div className="flex-header-item-2">
                 <p className="atendimento-header">central de atendimento</p>
