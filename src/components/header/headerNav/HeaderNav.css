@@ -96,6 +96,13 @@
         left: 1000px;
     }
 }
+@media(max-width:1024px) {
+    .flex-header-item-2{
+        position: relative;
+        left: 700px;
+    }
+}
+
 @media(max-width:500px) {
     .flex-header-item-2{
         position: relative;

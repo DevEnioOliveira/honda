@@ -68,3 +68,42 @@
     position: relative;
     right: 10px;
 }
+
+@media(max-width:500px) {
+    .gallery-flex-container {
+        display: inline-flex;
+    }
+
+    .img-gallery-1{
+        width: 430px;
+        height: 263px;
+        background-size: contain;
+    }
+    .gallery-item-1{
+        display: block;
+        position: relative;
+        left: 15px;
+    }
+
+    .gallery-item-2{
+        display: none;
+    }
+
+    .gallery-item-3{
+        display: none;
+    }
+    .gallery-item-subtitle{
+        text-align: center;
+        position: relative;
+        top: 20px;
+        left: 70px;
+    }
+
+    .gallery-item-description{
+        text-align: center;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        width: 400px;
+    }
+}

@@ -30,6 +30,10 @@
     flex-direction: row;
 }
 
+.cards-mobile-container{
+    display: none;
+}
+
 .cards-description{
     font-size: 14px;
     font-weight: 300;
@@ -129,3 +133,42 @@
     }
 }
 
+@media(max-width: 500px) {
+
+
+    .cards-mobile-container{
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .sectionCards-title{
+        text-align: center;
+    }
+
+    .sectionCards-description{
+       text-align: center;
+    }
+
+    .cards-item-2{
+       display: none;
+    }
+
+    .cards-item-3{
+        display: none;
+     }
+
+    .cards-item-1{
+        width: 335px;
+        height: 350px;
+        position: relative;
+        left: 60px;
+    }
+
+    .cards-img-1{
+        width: 211px;
+        height: 179px;
+        text-align: center;
+        background: transparent url('../../../assets/imgs/accord.png');
+    }
+    
+}

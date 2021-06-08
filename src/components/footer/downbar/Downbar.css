@@ -33,3 +33,11 @@
     width: 46px;
     height: 52px;
 }
+
+@media(max-width:500px) {
+    .downbar-container{
+        height: 181px;
+        display: flex;
+        flex-direction: column;
+    }
+}

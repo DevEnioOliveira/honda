@@ -42,6 +42,10 @@
         display: none;
     }
 
+    .banner-header-mobile{
+        display: block;
+    }
+
     .banner-name-mobile{
         display: block;
         position: absolute;
