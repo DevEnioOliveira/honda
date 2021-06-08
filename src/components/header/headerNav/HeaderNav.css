@@ -51,17 +51,18 @@
 
     .flex-header-item-2{
         position: relative;
-        left: 1200px;
+        left: 920px;
     }
     .nav-flex-container{
         height: 51;
         position: absolute;
         top: 50px;
-        left: 170px;
+        left: 400px;
         padding-bottom: 50px;
         width: 200px;
         
     }
+
 
     .headerNav{
         width: 100%;
@@ -69,6 +70,8 @@
         background: transparent url('../../../assets/imgs/logo.png');
         background-repeat: no-repeat;
         background-position: left;
+        position: relative;
+        left: 400px;
     }
 }
 
@@ -83,10 +86,14 @@
         opacity: 1;
         
     }
+    .nav-flex-container{     
+        left: 260px;
+        
+    }
 
     .flex-header-item-2{
         position: relative;
-        left: 1100px;
+        left: 930px;
     }
 }
 
@@ -94,6 +101,14 @@
     .flex-header-item-2{
         position: relative;
         left: 1000px;
+    }
+
+    .nav-flex-container{
+        left: 130px;        
+    }
+
+    .flex-header-item-2{
+        left: 920px;
     }
 }
 @media(max-width:1024px) {
